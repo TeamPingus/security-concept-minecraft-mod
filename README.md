@@ -16,7 +16,7 @@ Concept by br401 and rooot
 - Downside: possibly increased costs for servers.
 - Every server should have multiple managers with different credentials (at least 3 people, maybe) so that if one of the members, that manages the infrastructure goes rogue, other members can overrule them and deny access to the server, for that specific member.
 
-### Serverless approach:
+### Serverless(-ish) approach:
 - Every mod author should sign ALL their mods with the same signature*
 - every modloader should always randomise the location of the keystore to make it harder to find. (maybe?)*
 - if one mod has been tampered with, the modloader can check the signature of the mod with other mods or a local minecraft-specific keystore to check if the mod has been modified or not.
@@ -25,6 +25,7 @@ Concept by br401 and rooot
 - Mods should ALWAYS have to be signed (except in development environments)*
 - In order to update a signature, a mod author can update the signature, the new signature being signed with the old signature*
 - downside: if the private keys for the old signature is lost, a manual modification of the keystore would need to take place*
+- maybe host a .well-known/mcsign.json on the package name for the signature checking or a TXT record for signature checking - better approach than whats described above (credits: Semisol#0001)
 
 
 
