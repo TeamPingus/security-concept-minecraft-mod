@@ -20,7 +20,7 @@ Concept by br401 and rooot
 - if one mod has been tampered with, the modloader can check the signature of the mod with other mods or a local minecraft-specific keystore to check if the mod has been modified or not.
 - Public keys should be available on mod hosting sites like Modrinth and CurseForge, eg. next to the file hashes of the mod JARs.*
 - Mod authors should protect their private keys using secure passwords.*
-- Mods should ALWAYS have to be signed (except in development environments)
+- Mods should ALWAYS have to be signed (except in development environments)*
 - In order to update a signature, a mod author can update the signature, the new signature being signed with the old signature*
 - downside: if the private keys for the old signature is lost, a manual modification of the keystore would need to take place*
 
