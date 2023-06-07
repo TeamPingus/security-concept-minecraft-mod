@@ -13,6 +13,8 @@ Concept by br401 and rooot
 - A decentralised Network of servers, that all store the modid with the corresponding signature. If any server has been compromised, all the other servers would overrule it, therefore guaranteeing the integrity.
 ### Centralized approach:
 - At least 3 servers that store the signatures. If one server has been messed with, the other 2 would overrule it. (kinda like a raid setup). Every server should use different credentials, but be linked up to sync databases of the keys=modid’s
+- Downside: possibly increased costs for servers.
+- Every server should have multiple managers with different credentials (at least 3 people, maybe) so that if one of the members, that manages the infrastructure goes rogue, other members can overrule them and deny access to the server, for that specific member.
 
 ### Serverless approach:
 - Every mod author should sign ALL their mods with the same signature*
