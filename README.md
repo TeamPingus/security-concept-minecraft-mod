@@ -12,7 +12,7 @@ Concept by br401 and rooot
 ### Decentralised approach:
 - A decentralised Network of servers, that all store the modid with the corresponding signature. If any server has been compromised, all the other servers would overrule it, therefore guaranteeing the integrity.
 ### Centralized approach:
-- At least 3 servers that store the signature. If one server has been messed with, the other 2 would overrule it. (kinda like a raid setup). Every server should use different credentials, but be linked up to sync databases of the keys=modid’s
+- At least 3 servers that store the signatures. If one server has been messed with, the other 2 would overrule it. (kinda like a raid setup). Every server should use different credentials, but be linked up to sync databases of the keys=modid’s
 
 ### Serverless approach:
 - Every mod author should sign ALL their mods with the same signature*
