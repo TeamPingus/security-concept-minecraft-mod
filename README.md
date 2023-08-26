@@ -1,6 +1,6 @@
 # Concept for cryptographically signing and checking Minecraft mods in order to verify their integrity
 
-Concept by br401 and rooot
+Concept by PassiHD and rooot
 
 ### DISCLAIMER: WE ARE NOT EXPERTS IN CRYPTOGRAPHY! WE JUST WANT TO SHARE OUR IDEAS - TAKE EVERYTHING IN HERE WITH A GRAIN OF SALT
 
